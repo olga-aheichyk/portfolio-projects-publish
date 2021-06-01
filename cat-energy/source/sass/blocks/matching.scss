@@ -1,0 +1,77 @@
+.matching {
+  @include center-wrapper;
+  padding-bottom: 31px;
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 41px;
+  }
+}
+
+.matching__title {
+  font-size: 36px;
+  font-weight: 400;
+  color: $black;
+  margin-top: 19px;
+  margin-bottom: 0;
+
+  @media (min-width: $tablet-width) and (max-width: $desktop-width - 1px) {
+    padding-left: 39px;
+    padding-right: 30px;
+  }
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    margin-top: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 60px;
+  }
+}
+
+.matching__text {
+  text-transform: uppercase;
+  color: $black;
+  margin-top: 31px;
+  width: 97%;
+  margin-bottom: 0;
+
+  @media (min-width: $tablet-width) and (max-width: $desktop-width - 1px) {
+    padding-left: 39px;
+    padding-right: 30px;
+  }
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    margin-top: 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 32%;
+    margin-bottom: 46px;
+    margin-top: 46px;
+  }
+}
+
+.matching__note {
+  font-family: $text-font;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 17px;
+  margin-bottom: 0;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    font-size: 16px;
+    width: 36%;
+    bottom: 57px;
+    left: 370px;
+  }
+
+  @media (min-width: $desktop-width) {
+    bottom: 55px;
+    left: 630px;
+  }
+}

@@ -1,0 +1,51 @@
+.logo {
+  display: block;
+  width: 191px;
+  height: auto;
+
+  @media (min-width: $tablet-width) {
+    width: 174px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 202px;
+  }
+
+  &--header {
+    @media (max-width: $mobile-width-only) {
+      align-self: flex-start;
+      margin-bottom: 15px;
+    }
+  }
+
+  &--footer {
+    width: auto;
+    padding-top: 38px;
+    padding-bottom: 28px;
+    padding-left: 3px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (min-width: $tablet-width) {
+      text-align: left;
+      padding-left: 0;
+      margin-left: 0;
+      margin-right: 0;
+      padding-top: 28px;
+    }
+
+    @media (min-width: $desktop-width) {
+      padding-top: 33px;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 80%;
+  }
+
+  &:active {
+    opacity: 60%;
+  }
+}

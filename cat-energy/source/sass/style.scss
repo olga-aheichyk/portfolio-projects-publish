@@ -1,0 +1,29 @@
+@import "global/global.scss";
+@import "global/variables.scss";
+@import "global/mixins.scss";
+@import "blocks/page.scss";
+@import "blocks/header.scss";
+@import "blocks/logo.scss";
+@import "blocks/navigation.scss";
+@import "blocks/main.scss";
+@import "blocks/intro.scss";
+@import "blocks/button.scss";
+@import "blocks/variants.scss";
+@import "blocks/how.scss";
+@import "blocks/example.scss";
+@import "blocks/range.scss";
+@import "blocks/footer.scss";
+@import "blocks/location.scss";
+@import "blocks/social.scss";
+@import "blocks/copyright.scss";
+@import "blocks/catalog.scss";
+@import "blocks/additional.scss";
+@import "blocks/gift.scss";
+@import "blocks/product.scss";
+@import "blocks/more.scss";
+@import "blocks/matching.scss";
+@import "blocks/form.scss";
+
+.visually-hidden {
+  @include visually-hidden;
+}

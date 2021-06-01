@@ -1,0 +1,20 @@
+.footer {
+  grid-row: 3;
+}
+
+.footer__bottom {
+  background-color: $basic-grey;
+}
+
+.footer__wrapper {
+  @include center-wrapper;
+  min-height: 236px;
+
+  @media (min-width: $tablet-width) {
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

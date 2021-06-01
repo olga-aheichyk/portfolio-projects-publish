@@ -1,0 +1,47 @@
+// colors
+
+$special-dark-grey: #444444;
+$special-dark-grey-2: #222222;
+$basic-green: #68b738;
+$basic-green-2: #5eaa2f;
+$basic-grey: #f2f2f2;
+$basic-grey-2:  #eaeaea;
+$basic-grey-form: #e7e7e7;
+$grey-hover: #bababa;
+$border-grey: #d9d9d9;
+$border-grey-catalog: #ebebeb;
+$special-grey: #cdcdcd;
+$special-grey-2: #666666;
+$error-color: #ff8282;
+$white: #ffffff;
+$black: #000000;
+
+// viewports
+
+$tablet-width: 768px;
+$desktop-width: 1440px;
+$mobile-width-only: 767px;
+
+// fonts
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/oswaldregular.woff2") format("woff2"),
+    url("../fonts/oswaldregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/oswaldmedium.woff2") format("woff2"),
+    url("../fonts/oswaldmedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+// general variables
+$title-font: "Oswald", "Verdana", sans-serif;
+$text-font: "Arial", "Helvetica", sans-serif;

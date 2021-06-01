@@ -1,0 +1,110 @@
+.range {
+  padding-bottom: 35px;
+  margin-top: 14px;
+  min-width: 228px;
+  display: flex;
+  align-items: baseline;
+  margin-left: 42px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 65px;
+    padding-bottom: 68px;
+    margin-top: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 79px;
+    margin-top: 7px;
+  }
+}
+
+.range__text {
+  font-size: 16px;
+  color: $black;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0;
+
+  @media (min-width: $tablet-width) {
+    border-bottom: 1px dotted rgba($black, 0.4);
+    font-size: 20px;
+    line-height: 30px;
+
+    &:hover {
+      border-bottom: 1px solid rgba($black, 0.4);
+    }
+
+    &:active,
+    &:focus {
+      border: none;
+    }
+  }
+}
+
+.range__scale {
+  border: 1px solid $special-grey;
+  border-radius: 15px;
+  width: 84px;
+  height: 14px;
+  background-color: $white;
+  margin-left: 18px;
+  margin-right: 16px;
+
+  @media (min-width: $tablet-width) {
+    width: 428px;
+    height: 6px;
+    background-color: #dcdcdc;
+    position: relative;
+    margin-left: 28px;
+    align-self: center;
+    margin-top: 17px;
+  }
+}
+
+.range__mark {
+  border-radius: 5px;
+  width: 43%;
+  height: 6px;
+  background-color: $basic-green;
+  align-self: center;
+  margin: 3px 5px;
+  cursor: pointer;
+
+  @media (min-width: $tablet-width) {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid $special-grey;
+    background-color: $white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    top: -17px;
+    left: 45%;
+
+    @media (min-width: $desktop-width) {
+      left: 44%;
+    }
+
+    &:hover {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.19);
+    }
+
+    &:active {
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+      border: 1px solid $basic-green;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 8px;
+      height: 8px;
+      background-color: $basic-green;
+      border-radius: 50%;
+      position: absolute;
+      top: 13px;
+      left: 13px;
+    }
+  }
+}
