@@ -11,6 +11,6 @@
 [Файлы проекта, описание и код](https://github.com/olga-aheichyk/portfolio-projects-publish/tree/keksobooking/keksobooking)
 
 3. Проект по созданию SPA с помощью JavaScript на основе готовой вёрстки с получением данных с сервера, отправки и сохранения на сервере
-**[Big Trip](https://olga-aheichyk.github.io/portfolio-projects-publish/big-trip/build/)**
+**[Big Trip](https://olga-aheichyk.github.io/portfolio-projects-publish/big-trip/public/)**
 
 [Файлы проекта, описание и код](https://github.com/olga-aheichyk/portfolio-projects-publish/tree/big-trip/big-trip)
